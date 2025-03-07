@@ -1,0 +1,25 @@
+{
+    "name": "PinguinTermBot",
+    "version": "0.0.0",
+    "description": "Micro:bit software for the rc car of PinguinTerm",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "cutebot": "github:elecfreaks/pxt-cutebot"
+    },
+    "files": [
+        "README.md",
+        "main.blocks",
+        "main.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
