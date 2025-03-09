@@ -7,7 +7,7 @@ Log("Name: " + control.deviceName())
 Log("Serial Number: " + control.deviceLongSerialNumber())
 Log("Hardware Version: " + control.hardwareVersion())
 
-function Log(text: string) { //Here to make it easier to take code from the "Main" branches
+function Log(text: string) {
     radio.sendString(text)
     basic.pause(100)
 }
